@@ -1,0 +1,76 @@
+body,div,p,span,td,img{
+	padding:0;
+	margin:0;
+	font-family:tahoma,calibri,arial,verdana;
+	font-size:15px;
+}
+
+#container{
+	width:80%;
+	margin-left: 20px;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	box-shadow:2px 2px 3px #CCC;
+}
+
+#container div{ padding:5px; }
+
+#header {
+	border-bottom: 4px solid #e21e28;
+}
+
+#image_container{ padding:30px 0 !important; text-align:center; }
+
+
+#image_container img{
+	/*width:190px; height:190px;*/
+	box-shadow:3px 3px 3px #555;
+}
+
+#search_container {
+	border:1px solid #CCC;
+	background-color:#EEE;
+	margin:10px;
+	text-align:center;
+}
+
+.thImg {
+	float: none;
+	margin: 5px;
+	display: inline-block;
+	position: relative;
+	line-height: 0;
+}
+
+#info {
+	color: #999999;
+}
+
+
+#paging p{
+	padding-top:5px;
+	color: #7A7A7A;
+}
+
+#paging {
+	margin: 5px;
+	text-align:right;
+	border-top:1px solid #DDD;
+}
+
+#paging a{
+	border:1px solid #CCC;
+	background-color:#ddd;
+	padding:10px;
+}
+
+#paging a:hover{ background-color:#eee; }
+
+#container > div{ padding:10px; }
+
+#footer{ border-top:1px solid #CCC; text-align:center; }
+
+input{ padding:7px; }
+
+input[type="text"]{ padding:10px; margin:5px; color:#777; font-size:17px; }
+
